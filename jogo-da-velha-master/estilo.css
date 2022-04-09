@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: red;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: red;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: red;
+    cursor: pointer;
+    color: white;
+    transition: all .4s;
+}
+button:hover {
+    background: white;
+    color: black;
+    transition-delay: .3s;
+}
